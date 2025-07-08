@@ -56,7 +56,10 @@ Designed with pixel-perfect precision using only Vanilla HTML, CSS, and JS.
 
 <p align="center">
   <img src="./luxury-landing-page/screenshots/hero.PNG" alt="Hero Section" width="80%" />
-  <img src="./screenshots/products.PNG" alt="Product Grid" width="80%" />
+  <img src="./luxury-landing-page/screenshots/hero2.PNG" alt="Hero Section 2" width="80%" />
+  <br>
+  <img src="./luxury-landing-page/screenshots/products.PNG" alt="Product Section" width="80%" />
+  <img src="./luxury-landing-page/screenshots/products2.PNG" alt="Product Section 2" width="80%" />
 </p>
 
 ---
