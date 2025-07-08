@@ -55,7 +55,7 @@ Designed with pixel-perfect precision using only Vanilla HTML, CSS, and JS.
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="./screenshots/hero.PNG" alt="Hero Section" width="80%" />
+  <img src="./luxury-landing-page/screenshots/hero.PNG" alt="Hero Section" width="80%" />
   <img src="./screenshots/products.PNG" alt="Product Grid" width="80%" />
 </p>
 
