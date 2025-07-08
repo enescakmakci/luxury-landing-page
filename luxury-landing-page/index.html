@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="tr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Dust Lighting - Mimari ve lüks iç mekanlar için yenilikçi aydınlatma çözümleri."/>
+  <title>Dust Lighting</title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23facc15' /></svg>" rel="icon"/>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">YourLogo</div>
+      <nav aria-label="Site Menüsü">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="theme-switch-wrapper">
+          <label aria-label="Switch Theme" class="theme-switch">
+            <input id="theme-toggle" type="checkbox"/>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Redefining Light</h1>
+        <p>Dust Lighting unites elegance and functiong in interior spaces.</p>
+        <button class="cta" onclick="document.querySelector('.products').scrollIntoView({behavior: 'smooth'})">Discover the Collection </button>
+      </div>
+    </section>
+    <section aria-labelledby="our-products" class="container products">
+    <div class="product">
+        <div class="product-image">
+        <img src="images/Lucent Halo.jpg" alt="Lucent Halo Lamp">
+        </div>
+        <h3>Lucent Halo</h3>
+        <p>Elegant lighting design for large spaces.</p>
+    </div>
+    <div class="product">
+        <div class="product-image">
+        <img src="images/ArcoLux Beam.PNG" alt="ArcoLux Beam Lamp">
+        </div>
+        <h3>ArcoLux Beam</h3>
+        <p>Sharp illumination that complents architectural lines.</p>
+    </div>
+    <div class="product">
+        <div class="product-image">
+        <img src="images/Linea Nova.jpg" alt="Linea Nova Lamp">
+        </div>
+        <h3>Linea Nova</h3>
+        <p>Minimalist lines that defy-time.</p>
+    </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <p>Dust Lighting transforms lighting into art by combining technology and elegance for interior spaces. Every design is crafted for visionaries.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a aria-label="Our Instagram Profile" href="#">Instagram</a>
+        <a aria-label="Our LinkedIn Profile" href="#">LinkedIn</a>
+        <a aria-label="Our Behance Profile" href="#">Behance</a>
+      </div>
+      <form aria-label="Newsletter Subscription" class="newsletter">
+        <input placeholder="Enter your email address" required="" type="email"/>
+        <button type="submit">Join Newsletter</button>
+      </form>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
